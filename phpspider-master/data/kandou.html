@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分析数据</title>
+    <!--引入echarts.js-->
+    <script src="echarts.min.js" ></script>
+</head>
+<body>
+    <!--定义一个dom-->
+    <div id="mian" style="width: 600px; height: 400px;" ></div>
+    <script type="text/javascript" >
+    var myChar = echarts.init(document.getElementById("main"));
+    var option = {
+        title:{
+            text: 'eCharts 入门'
+        },
+        tooltip:{},
+        lengend:{
+            data:['销量']
+        },
+        xAxis: {
+            data:['a', 'b', 'c', 'd']
+        },
+        yAxis: {},
+        series: [{
+            name: '1',
+            type: '2',
+            date: [9, 8, 7, 6]
+        }]
+    };
+
+        myChart.setOption(option);
+    </script>
+
+
+</body>
+</html>
