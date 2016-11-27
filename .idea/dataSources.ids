@@ -11,203 +11,215 @@
       <table id="2" parent="1" name="content"/>
       <table id="3" parent="1" name="mafengwo_content"/>
       <table id="4" parent="1" name="ningmeng"/>
-      <table id="5" parent="1" name="lol_hero"/>
-      <table id="6" parent="1" name="lol-hero"/>
+      <table id="5" parent="1" name="kankandou"/>
+      <table id="6" parent="1" name="zol"/>
       <table id="7" parent="1" name="lolhero"/>
-      <table id="8" parent="1" name="kankandou"/>
-      <column id="9" parent="2" name="id">
+      <column id="8" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="10" parent="2" name="depth">
+      <column id="9" parent="2" name="depth">
         <data-type>int(11)</data-type>
       </column>
-      <column id="11" parent="2" name="url">
+      <column id="10" parent="2" name="url">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="12" parent="2" name="article_title">
+      <column id="11" parent="2" name="article_title">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="13" parent="2" name="article_headimg">
+      <column id="12" parent="2" name="article_headimg">
         <data-type>varchar(150)</data-type>
       </column>
-      <column id="14" parent="2" name="article_author">
+      <column id="13" parent="2" name="article_author">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="15" parent="2" name="article_content">
+      <column id="14" parent="2" name="article_content">
         <data-type>text</data-type>
       </column>
-      <column id="16" parent="2" name="article_publish_time">
+      <column id="15" parent="2" name="article_publish_time">
         <data-type>int(10)</data-type>
       </column>
-      <key id="17" parent="2" name="PRIMARY">
+      <key id="16" parent="2" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="18" parent="3" name="id">
+      <column id="17" parent="3" name="id">
         <comment>ID</comment>
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="19" parent="3" name="city">
+      <column id="18" parent="3" name="city">
         <comment>城市</comment>
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="20" parent="3" name="name">
+      <column id="19" parent="3" name="name">
         <comment>标题</comment>
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="21" parent="3" name="date">
+      <column id="20" parent="3" name="date">
         <comment>出发日期</comment>
         <data-type>date</data-type>
       </column>
-      <column id="22" parent="3" name="up">
+      <column id="21" parent="3" name="up">
         <comment>顶</comment>
         <data-type>int(11)</data-type>
       </column>
-      <column id="23" parent="3" name="pv">
+      <column id="22" parent="3" name="pv">
         <comment>浏览次数</comment>
         <data-type>int(11)</data-type>
       </column>
-      <column id="24" parent="3" name="fav">
+      <column id="23" parent="3" name="fav">
         <comment>收藏</comment>
         <data-type>int(11)</data-type>
       </column>
-      <column id="25" parent="3" name="share">
+      <column id="24" parent="3" name="share">
         <comment>分享</comment>
         <data-type>int(11)</data-type>
       </column>
-      <column id="26" parent="3" name="pic">
+      <column id="25" parent="3" name="pic">
         <comment>图片数目</comment>
         <data-type>int(11)</data-type>
       </column>
-      <key id="27" parent="3" name="PRIMARY">
+      <key id="26" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="28" parent="4" name="id">
+      <column id="27" parent="4" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="29" parent="4" name="depth">
+      <column id="28" parent="4" name="depth">
         <data-type>int(11)</data-type>
       </column>
-      <column id="30" parent="4" name="url">
+      <column id="29" parent="4" name="url">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="31" parent="4" name="song_name">
+      <column id="30" parent="4" name="song_name">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="32" parent="4" name="song_intro">
+      <column id="31" parent="4" name="song_intro">
         <data-type>varchar(500)</data-type>
       </column>
-      <key id="33" parent="4" name="PRIMARY">
+      <key id="32" parent="4" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="34" parent="5" name="id">
+      <column id="33" parent="5" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="35" parent="5" name="depth">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="36" parent="5" name="url">
-        <data-type>varchar(200)</data-type>
-      </column>
-      <column id="37" parent="5" name="hero_name">
+      <column id="34" parent="5" name="book_name">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="38" parent="5" name="hero_price">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <key id="39" parent="5" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="40" parent="6" name="id">
-        <mandatory>1</mandatory>
-        <data-type>int(11) unsigned</data-type>
-      </column>
-      <column id="41" parent="6" name="depth">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="42" parent="6" name="url">
-        <data-type>varchar(200)</data-type>
-      </column>
-      <column id="43" parent="6" name="hero_name">
-        <data-type>text</data-type>
-      </column>
-      <column id="44" parent="6" name="hero_price">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <column id="45" parent="6" name="time">
-        <data-type>int(10)</data-type>
-      </column>
-      <key id="46" parent="6" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="47" parent="7" name="id">
-        <mandatory>1</mandatory>
-        <data-type>int(11) unsigned</data-type>
-      </column>
-      <column id="48" parent="7" name="depth">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="49" parent="7" name="url">
-        <data-type>varchar(200)</data-type>
-      </column>
-      <column id="50" parent="7" name="hero_name">
-        <data-type>text</data-type>
-      </column>
-      <column id="51" parent="7" name="hero_price">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <column id="52" parent="7" name="time">
-        <data-type>int(10)</data-type>
-      </column>
-      <key id="53" parent="7" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="54" parent="8" name="id">
-        <mandatory>1</mandatory>
-        <data-type>int(11) unsigned</data-type>
-      </column>
-      <column id="55" parent="8" name="book_name">
+      <column id="35" parent="5" name="book_author">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="56" parent="8" name="book_author">
-        <data-type>varchar(20)</data-type>
-      </column>
-      <column id="57" parent="8" name="book_format">
+      <column id="36" parent="5" name="book_format">
         <mandatory>1</mandatory>
         <data-type>varchar(20)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="58" parent="8" name="book_class">
+      <column id="37" parent="5" name="book_class">
         <mandatory>1</mandatory>
         <data-type>varchar(10)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="59" parent="8" name="click_num">
+      <column id="38" parent="5" name="click_num">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="60" parent="8" name="download_num">
+      <column id="39" parent="5" name="download_num">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="61" parent="8" name="book_content">
+      <column id="40" parent="5" name="book_content">
         <data-type>text</data-type>
       </column>
-      <column id="62" parent="8" name="book_img">
+      <column id="41" parent="5" name="book_img">
         <data-type>varchar(150)</data-type>
       </column>
-      <key id="63" parent="8" name="PRIMARY">
+      <key id="42" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="43" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned</data-type>
+      </column>
+      <column id="44" parent="6" name="mobile_name">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="45" parent="6" name="mobile_intro">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="46" parent="6" name="consult_price">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="47" parent="6" name="showdate">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="48" parent="6" name="score">
+        <mandatory>1</mandatory>
+        <data-type>float(2,1)</data-type>
+        <default-expression>&apos;0.0&apos;</default-expression>
+      </column>
+      <column id="49" parent="6" name="screen_size">
+        <mandatory>1</mandatory>
+        <data-type>float(3,1)</data-type>
+        <default-expression>&apos;0.0&apos;</default-expression>
+      </column>
+      <column id="50" parent="6" name="brand">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="51" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="52" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned</data-type>
+      </column>
+      <column id="53" parent="7" name="hero_name">
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="54" parent="7" name="sex">
+        <mandatory>1</mandatory>
+        <data-type>varchar(2)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="55" parent="7" name="mode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="56" parent="7" name="time">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="57" parent="7" name="pass_skill">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="58" parent="7" name="hero_price">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="59" parent="7" name="hero_story">
+        <data-type>text</data-type>
+      </column>
+      <key id="60" parent="7" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
