@@ -79,4 +79,3 @@ $spider->on_extract_field = function($fieldname, $data, $page)
 
 $spider->start();
 
-
