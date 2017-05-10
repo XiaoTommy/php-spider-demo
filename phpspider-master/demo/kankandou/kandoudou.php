@@ -115,5 +115,3 @@ $spider->on_handle_img = function($fieldname, $img)
 
 
 $spider->start();
-
-
