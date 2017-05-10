@@ -80,5 +80,3 @@ $spider = new phpspider($configs);
 
 
 $spider->start();
-
-
